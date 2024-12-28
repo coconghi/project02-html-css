@@ -6,9 +6,96 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --primary-color: #1ebfc1;
+}
+
 body {
   font-size: 1.6rem;
   font-family: Poppins, sans-serif;
   font-weight: 400;
+  background-color: #fff;
 }
 
+/* ====================== Common ====================== */
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 117rem;
+  max-width: calc(100% - 4.8rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  width: 18.6rem;
+  line-height: 6.8rem;
+  border-radius: 1.4rem;
+  background: var(--primary-color);
+  box-shadow: 0rem 1.0rem 5.0rem 0rem rgba(0, 0, 0, 0.05);
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* ====================== Header ====================== */
+header.fix {
+  position: sticky;
+  top: -4.2rem;
+}
+
+header .body {
+  display: flex;
+  align-items: center;
+  padding: 5.2rem 0 1rem;
+}
+
+header .header-logo {
+  flex: 3;
+}
+
+header .logo {
+  width: 12.7rem;
+  height: 3.7rem;
+  object-fit: cover;
+}
+
+header nav {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+}
+
+header .list {
+  display: flex;
+  gap: 3.9rem;
+}
+
+header .list a {
+  color: #2f3a3b;
+}
+
+header .action {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2.4rem;
+}
+
+header .signin {
+  color: #494949;
+}
+
+header .btn.signup {
+  width: 10.8rem;
+  line-height: 4.8rem;
+  background-color: transparent;
+  border-radius: 0.6rem;
+  border: 0.1rem solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 1.6rem;
+}
