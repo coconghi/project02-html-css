@@ -580,3 +580,132 @@ header .btn.signup:hover {
   color: #767e7e;
   font-size: 1.8rem;
 }
+
+/* ====================== Feedback ====================== */
+
+.feedback .body {
+  margin-bottom: 13.0rem;
+  padding: 3.7rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* content */
+.feedback .content {
+  width: 35.81%;
+}
+
+.feedback .content .comment-icon {
+  width: 3.6rem;
+  height: 2.9rem;
+}
+
+.feedback .content .comment {
+  margin-top: 2.7rem;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 150%;
+}
+
+.feedback .content .comment.over-flow {
+  --over-flow: 4;
+}
+
+.feedback .content .author {
+  display: flex;
+  align-items: center;
+  margin-top: 3.3rem;
+  color: #070707;
+  font-weight: 500;
+}
+
+.feedback .content .author em {
+  color: #767e7e;
+  font-weight: 400;
+}
+
+.feedback .content .author::before {
+  content: "";
+  margin-right: 0.5rem;
+  width: 0.8rem;
+  height: 0.2rem;
+  background-color: #070707;
+}
+
+.feedback .content .action {
+  margin-top: 5.2rem;
+  display: flex;
+  gap: 3.0rem;
+}
+
+.feedback .content .action button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.0rem;
+  height: 5.0rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* avatar */
+.feedback .avatar {
+  margin-top: -3.0rem;
+  width: 34.7%;
+  position: relative;
+}
+
+.feedback .avatar img {
+  width: 7.8rem;
+  height: 7.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: var(--primary-color);
+}
+
+.feedback .avatar .author {
+  width: 23.5rem;
+  height: 23.5rem;
+  background-color: #ff8282;
+}
+
+.feedback .avatar .previous {
+  position: absolute;
+  top: -10.7rem;
+  left: -31.77%;
+  width: 9.2rem;
+  height: 9.2rem;
+}
+
+.feedback .avatar .next {
+  position: absolute;
+  top: -8.8rem;
+  right: 0;
+  width: 11.0rem;
+  height: 11.0rem;
+  background-color: #bf83ff;
+}
+
+.feedback .avatar img:last-child {
+  position: absolute;
+  left: -67.24%;
+  bottom: 0.6rem;
+  background-color: #ffc147;
+}
+
+.feedback .avatar img:nth-last-child(2) {
+  position: absolute;
+  bottom: -13.9rem;
+  left: -15.03%;
+  background-color: #ff947a;
+}
+
+.feedback .avatar img:nth-last-child(3) {
+  position: absolute;
+  bottom: -11.0rem;
+  right: 7.88%;
+  background-color: #b1dfdc;
+}
