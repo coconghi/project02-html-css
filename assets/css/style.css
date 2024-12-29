@@ -432,7 +432,7 @@ header .btn.signup:hover {
 
 /* ====================== Courses ====================== */
 .courses {
-  margin-top: 13.0rem;
+  margin-top: 13rem;
 }
 
 /* course-top */
@@ -501,8 +501,8 @@ header .btn.signup:hover {
   width: 32.5rem;
   height: 19.5rem;
   border-radius: 0.8rem;
-  background-color: #FFFFFF;
-  box-shadow: 0rem 1.6rem 9.0rem 0rem rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  box-shadow: 0rem 1.6rem 9rem 0rem rgba(0, 0, 0, 0.05);
 }
 
 .courses .courses-list .title {
@@ -531,7 +531,7 @@ header .btn.signup:hover {
 
 .courses .courses-list .time {
   display: flex;
-  gap: 1.0rem;
+  gap: 1rem;
 }
 
 .courses .courses-list .time p {
@@ -541,12 +541,42 @@ header .btn.signup:hover {
   font-size: 1.4rem;
 }
 
-.courses .courses-list .time p::before{
+.courses .courses-list .time p::before {
   content: "";
   display: inline-block;
-  margin-right: 1.0rem;
+  margin-right: 1rem;
   width: 0.6rem;
-height: 0.6rem;
-border-radius: 50%;
-background-color: var(--primary-color);
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+/* ====================== Statistic ====================== */
+.statistic {
+  margin-top: 26.5rem;
+  margin-bottom: 26.4rem;
+}
+
+.statistic .data {
+  margin-left: 15.4rem;
+  margin-right: 15.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistic .data-box {
+  width: 18.69%;
+  text-align: center;
+}
+
+.statistic .number {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.statistic .object {
+  margin-top: 1.1rem;
+  color: #767e7e;
+  font-size: 1.8rem;
 }
