@@ -34,12 +34,18 @@ a {
   width: 18.6rem;
   line-height: 6.8rem;
   border-radius: 1.4rem;
-  background: var(--primary-color);
+  background-color: var(--primary-color);
   box-shadow: 0rem 1rem 5rem 0rem rgba(0, 0, 0, 0.05);
   color: #fff;
   text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+.btn:hover{
+  outline: 0.2rem solid var(--primary-color);
+  background-color: #FFF;
+  color: var(--primary-color);
 }
 
 .over-flow {
@@ -112,7 +118,8 @@ header .signin {
 }
 
 header .signin:hover {
-  text-shadow: 0.1rem 0 0 currentColor;
+  color: var(--primary-color);
+  text-shadow: 0.05rem 0 0 currentColor;
 }
 
 header .btn.signup {
@@ -584,7 +591,7 @@ header .btn.signup:hover {
 /* ====================== Feedback ====================== */
 
 .feedback .body {
-  margin-bottom: 13.0rem;
+  margin-bottom: 13rem;
   padding: 3.7rem 0;
   display: flex;
   justify-content: space-between;
@@ -636,15 +643,15 @@ header .btn.signup:hover {
 .feedback .content .action {
   margin-top: 5.2rem;
   display: flex;
-  gap: 3.0rem;
+  gap: 3rem;
 }
 
 .feedback .content .action button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5.0rem;
-  height: 5.0rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   border: none;
   background-color: var(--primary-color);
@@ -653,7 +660,7 @@ header .btn.signup:hover {
 
 /* avatar */
 .feedback .avatar {
-  margin-top: -3.0rem;
+  margin-top: -3rem;
   width: 34.7%;
   position: relative;
 }
@@ -684,8 +691,8 @@ header .btn.signup:hover {
   position: absolute;
   top: -8.8rem;
   right: 0;
-  width: 11.0rem;
-  height: 11.0rem;
+  width: 11rem;
+  height: 11rem;
   background-color: #bf83ff;
 }
 
@@ -705,7 +712,103 @@ header .btn.signup:hover {
 
 .feedback .avatar img:nth-last-child(3) {
   position: absolute;
-  bottom: -11.0rem;
+  bottom: -11rem;
   right: 7.88%;
   background-color: #b1dfdc;
+}
+
+/* ====================== cta - Call to action ====================== */
+
+.cta {
+  padding: 7.6rem 0 8.8rem;
+  background-color: #def6f5;
+}
+
+.cta .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta .content .title {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.cta .content .desc {
+  margin-top: 1.8rem;
+  color: #767e7e;
+  font-size: 1.8rem;
+}
+
+.cta .action {
+  width: 42.22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ====================== footer ====================== */
+
+footer {
+  padding: 13.0rem 0 5.0rem;
+}
+
+footer .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .info .logo {
+  width: 12.7rem;
+  height: 3.7rem;
+  object-fit: cover;
+}
+
+footer .info .title {
+  margin-bottom: 2.5rem;
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+footer .info li {
+  margin-bottom: 1.8rem;
+}
+
+footer .info a {
+  color: #535353;
+}
+
+footer .info a:hover {
+  text-shadow: 0.05rem 0 0 currentColor;
+}
+
+footer .info .list.social a {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+footer .info .list .social-icon {
+  margin-right: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.0rem;
+  height: 2.0rem;
+  border-radius: 50%;
+}
+
+footer .info .list .social-icon img {
+  height: 1.1rem;
+  object-fit: cover;
+}
+
+footer .copyright {
+  margin-top: 8.0rem;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
 }
