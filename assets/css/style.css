@@ -42,9 +42,9 @@ a {
   font-weight: 600;
 }
 
-.btn:hover{
+.btn:hover {
   outline: 0.2rem solid var(--primary-color);
-  background-color: #FFF;
+  background-color: #fff;
   color: var(--primary-color);
 }
 
@@ -752,7 +752,7 @@ header .btn.signup:hover {
 /* ====================== footer ====================== */
 
 footer {
-  padding: 13.0rem 0 5.0rem;
+  padding: 13rem 0 5rem;
 }
 
 footer .info {
@@ -796,8 +796,8 @@ footer .info .list .social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 2.0rem;
-  height: 2.0rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
 }
 
@@ -807,7 +807,7 @@ footer .info .list .social-icon img {
 }
 
 footer .copyright {
-  margin-top: 8.0rem;
+  margin-top: 8rem;
   text-align: center;
   color: #b0b5b4;
   font-size: 1.8rem;
